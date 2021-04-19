@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Math quiz</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+                <link rel="stylesheet" href="style.css">
+                
+    </head>
+    <body onload="loadit()">
+        <h4 id="player1_name"></h4> <span id="player1_score"></span><br>
+        <h4 id="player2_name"></h4> <span id="player2_score"></span>
+<center>
+        <div class="container">
+            <h1>Math quiz!</h1>
+            <h3 id="plyrqs"></h3>
+            <h3 id="plyrans"></h3>
+            <div id="output"></div>
+        </div>
+        <br>
+     
+        <label>Please type Number 1 below</label><br>
+        <input type="text" id="no1" class="form-control word" placeholder="Type Number 1 here!"><br>
+        <label>Please type Number 2 below</label><br>
+        <input type="text" id="no2" class="form-control word" placeholder="Type Number 2 here!"><br>
+        <button onclick="send()" class="btn btn-success">Calculate</button>
+        </center>
+        <script src="main1.js"></script>
+    </body>
+
+</html>
